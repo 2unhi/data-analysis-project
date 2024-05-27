@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; /* Flex container 설정 */
+    justify-content: center; /* 가로 방향 중앙 정렬 */
+    align-items: center; /* 세로 방향 중앙 정렬 */
+}
+
+#baseball-field {
+    background-image: url('image/baseball-field.png');
+    width: 700px;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
